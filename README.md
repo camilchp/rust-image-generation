@@ -41,6 +41,10 @@ Encoding gifs takes a while with the image crate. A faster alternative is to gen
 $ ./julia animate <real_part> <complex_part> <image_size_in_pixels> <nb_of_frames> <path_to_frames> <format>
 ```
 
+### Colorscale
+
+I quickly got frustrated with (for my purposes) complicated crates for handling color. Thus, i made my own gradient calculator library, taylored for my needs : it spits out a Vec of any amount of colors, linearly switching between as many colors as you want.
+
 ## Raytracer :
 
 My second rust project was a simple raytracer :
